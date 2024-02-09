@@ -1,0 +1,42 @@
+.sign-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 400px;
+  padding: 16px; /* theme.spacing(3) equivalent */
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
+    0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, 0.12); /* theme.shadows[5] equivalent */
+  border-radius: 4px; /* theme.shape.borderRadius equivalent */
+}
+
+.title {
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px; /* theme.spacing(2) equivalent */
+}
+
+.formField {
+  margin-bottom: 16px; /* theme.spacing(2) equivalent */
+}
+
+.formButton {
+  margin-top: 16px; /* theme.spacing(2) equivalent */
+}
+
+.loginCta {
+  text-align: center;
+  margin-top: 16px; /* theme.spacing(2) equivalent */
+}
+
+.errorContainer {
+  color: #f44336; /* theme.palette.error.main equivalent */
+  margin-bottom: 8px; /* theme.spacing(1) equivalent */
+}

@@ -1,0 +1,42 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/msal-browser": "^2.38.0",
+    "@azure/msal-node": "^1.18.0",
+    "@azure/msal-react": "^1.5.9",
+    "axios": "^1.6.7",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "cookie-session": "^2.1.0",
+    "cors": "^2.8.5",
+    "crypt-js": "^1.0.4",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.3.2",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "google-auth-library": "^9.6.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.6.8",
+    "morgan": "^1.10.0",
+    "msal": "^1.4.18",
+    "multer": "^1.4.5-lts.1",
+    "node-fetch": "^2.7.0",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^8.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
